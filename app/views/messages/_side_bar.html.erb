@@ -1,6 +1,6 @@
 <div class="side_top">
   <div class="user">
-    <a hlef="#">asami</a>
+    <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="new_room">
     <a hlef="#">チャットを作成する</a>
